@@ -13,13 +13,13 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // User::factory(10)->create();
 
-        if (!\App\Models\User::where('email', 'admin@divinemanagement.org')->exists()) {
+
+        if (!\App\Models\User::where('email', 'Hanin.elhorbeity@hotmail.com')->exists()) {
             \App\Models\User::factory()->create([
-                'name' => 'Admin User',
-                'email' => 'admin@divinemanagement.org',
-                'password' => bcrypt('password'),
+                'name' => 'HaninElhorbeity',
+                'email' => 'Hanin.elhorbeity@hotmail.com',
+                'password' => bcrypt('Hanin@D2025'),
             ]);
         }
 
