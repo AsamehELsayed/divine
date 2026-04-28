@@ -82,7 +82,7 @@
   --secondary: oklch(0.18 0.01 60);
   --secondary-foreground: oklch(0.96 0.005 80);
   --muted: oklch(0.14 0.005 60);
-  --muted-foreground: oklch(0.7 0.015 70);
+  --muted-foreground: oklch(0.8 0.015 70); /* Increased from 0.7 for better clarity */
   --accent: oklch(0.78 0.06 75);
   --accent-foreground: oklch(0.06 0 0);
   --destructive: oklch(0.577 0.245 27.325);
@@ -193,9 +193,18 @@
     background-color: var(--color-background);
     color: var(--color-foreground);
     font-family: var(--font-sans);
+    font-weight: 450; /* Slightly bolder default */
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
     overflow-x: hidden;
   }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+
   ::selection { background: var(--gold); color: var(--ink); }
   ::-webkit-scrollbar { width: 0; }
 }

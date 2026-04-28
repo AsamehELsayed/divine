@@ -97,12 +97,12 @@
     "name": "vendor"
   },
   "resources/css/app.css": {
-    "file": "assets/app-CBxL3sH0.css",
+    "file": "assets/app-C8u0JDME.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
   "resources/js/app.tsx": {
-    "file": "assets/app-BI7h6ZIR.js",
+    "file": "assets/app-Vh7Abi2U.js",
     "name": "app",
     "src": "resources/js/app.tsx",
     "isEntry": true,
@@ -122,7 +122,7 @@
       "resources/js/pages/welcome.tsx"
     ],
     "css": [
-      "assets/app-CBxL3sH0.css"
+      "assets/app-C8u0JDME.css"
     ]
   },
   "resources/js/assets/bg-video/bg-video.mp4": {
@@ -224,7 +224,7 @@
     ]
   },
   "resources/js/pages/settings/appearance.tsx": {
-    "file": "assets/appearance-CjllJyLe.js",
+    "file": "assets/appearance-fFIqPoCU.js",
     "name": "appearance",
     "src": "resources/js/pages/settings/appearance.tsx",
     "isDynamicEntry": true,
@@ -272,7 +272,7 @@
     ]
   },
   "resources/js/pages/welcome.tsx": {
-    "file": "assets/welcome-BVFSXcGl.js",
+    "file": "assets/welcome-2kd3ouOf.js",
     "name": "welcome",
     "src": "resources/js/pages/welcome.tsx",
     "isDynamicEntry": true,
